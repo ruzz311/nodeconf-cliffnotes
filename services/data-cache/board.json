@@ -1,59 +1,25 @@
 {
   "id": "4fefd4a85ded96a71c1e617f",
-  "name": "Nodeconf",
-  "desc": "",
-  "closed": false,
-  "invited": false,
-  "url": "https://trello.com/board/nodeconf/4fefd4a85ded96a71c1e617f",
-  "prefs": {
-    "permissionLevel": "public",
-    "voting": "public",
-    "comments": "public",
-    "invitations": "members",
-    "selfJoin": false
-  },
-  "invitations": [],
-  "memberships": [{
-    "id": "4fefd4a85ded96a71c1e6183",
-    "idMember": "4e8dd176f6bf49919d1e399b",
-    "memberType": "admin"
-  }, {
-    "id": "4ff3640218f4175b3ad6237e",
-    "idMember": "4e702fe6d615d70000017a0e",
-    "memberType": "normal"
-  }],
-  "labelNames": {
-    "yellow": "Events",
-    "red": "sponsor",
-    "purple": "",
-    "orange": "Info",
-    "green": "Talks",
-    "blue": ""
-  },
+  "name": "Nodeconf Cliffnotes",
+  "desc": "Nodeconf 2012 :: Portland, Oregon",
   "lists": [{
     "id": "4fefd4a85ded96a71c1e6181",
     "name": "Day 1 :: July 02 2012",
     "closed": false,
     "idBoard": "4fefd4a85ded96a71c1e617f",
     "pos": 32768
-  }, {
+    }, {
     "id": "4fefd4a85ded96a71c1e6182",
     "name": "Day 2 :: July 03 2012",
     "closed": false,
     "idBoard": "4fefd4a85ded96a71c1e617f",
     "pos": 49152
-  }, {
+    }, {
     "id": "4fefd4a85ded96a71c1e6180",
     "name": "Info",
     "closed": false,
     "idBoard": "4fefd4a85ded96a71c1e617f",
     "pos": 114688
-  }, {
-    "id": "4ff1e53fd359dadd52214305",
-    "name": "Sponsors",
-    "closed": true,
-    "idBoard": "4fefd4a85ded96a71c1e617f",
-    "pos": 180224
   }],
   "cards": [{
     "id": "4fefd4f0765cf9d5436a47ba",
@@ -139,7 +105,7 @@
       "color": "green",
       "name": "Talks"
     }],
-    "name": "Matthew Podwysocki - \"oh the places you'll node\"",
+    "name": "Matthew Podwysocki - Oh the Places You'll Node",
     "pos": 262143,
     "url": "https://trello.com/card/matthew-podwysocki-oh-the-places-you-ll-node/4fefd4a85ded96a71c1e617f/7"
   }, {
@@ -398,7 +364,7 @@
     },
     "checkItemStates": [],
     "closed": false,
-    "desc": "Twitter: http://twitter.com/piscisaureus",
+    "desc": "Slides: http://www.2bs.nl/nodeconf2012/#1  \nTwitter: http://twitter.com/piscisaureus  ",
     "due": "2012-07-02T23:30:00.000Z",
     "idBoard": "4fefd4a85ded96a71c1e617f",
     "idChecklists": [],
@@ -633,7 +599,7 @@
     },
     "checkItemStates": [],
     "closed": false,
-    "desc": "Twitter: http://twitter.com/polotek  \nEmployer: Yammer  \n",
+    "desc": "Site: http://marcorogers.com/  \nTwitter: http://twitter.com/polotek  \nGithub: https://github.com/polotek/nodeconf-2012-streams-talk  \nEmployer: Yammer  \n",
     "due": "2012-07-03T17:40:00.000Z",
     "idBoard": "4fefd4a85ded96a71c1e617f",
     "idChecklists": [],
@@ -1045,7 +1011,7 @@
       "subscribed": false,
       "fogbugz": "",
       "due": "2012-07-04T00:40:00.000Z",
-      "description": false,
+      "description": true,
       "comments": 0,
       "checkItemsChecked": 0,
       "checkItems": 0,
@@ -1053,7 +1019,7 @@
     },
     "checkItemStates": [],
     "closed": false,
-    "desc": "",
+    "desc": "THANKS TO ALL STAFF WHO HELPED!",
     "due": "2012-07-04T00:40:00.000Z",
     "idBoard": "4fefd4a85ded96a71c1e617f",
     "idChecklists": [],
@@ -1172,7 +1138,7 @@
     "idShort": 8,
     "labels": [{
       "color": "red",
-      "name": "sponsor"
+      "name": "Sponsors"
     }],
     "name": "Voxer",
     "pos": 327679,
@@ -1201,7 +1167,7 @@
     "idShort": 9,
     "labels": [{
       "color": "red",
-      "name": "sponsor"
+      "name": "Sponsors"
     }],
     "name": "Joyent",
     "pos": 393215,
@@ -1230,7 +1196,7 @@
     "idShort": 10,
     "labels": [{
       "color": "red",
-      "name": "sponsor"
+      "name": "Sponsors"
     }],
     "name": "Yammer",
     "pos": 458751,
@@ -1259,7 +1225,7 @@
     "idShort": 11,
     "labels": [{
       "color": "red",
-      "name": "sponsor"
+      "name": "Sponsors"
     }],
     "name": "MDN",
     "pos": 524287,
@@ -1288,7 +1254,7 @@
     "idShort": 12,
     "labels": [{
       "color": "red",
-      "name": "sponsor"
+      "name": "Sponsors"
     }],
     "name": "SendGrid",
     "pos": 589823,

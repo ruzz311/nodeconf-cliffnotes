@@ -6,49 +6,69 @@ require([
   "use!backbone",
 
   // Modules
-  "modules/trello"
+  "modules/trello",
+  "modules/System"
 ],
 
-function(namespace, $, Backbone, Trello) {
+function( namespace, $, Backbone, Trello, System ){
   
-  // Defining the application router, you can attach sub routers here.
+  // Shorthand the application namespace
+  var app = namespace.app,
+      board = new Trello.Board({ id: "4fefd4a85ded96a71c1e617f" }),
+      layout_main = new Backbone.LayoutManager({
+        template: "main"
+      });
+  
+  window.test = board
+  
   var Router = Backbone.Router.extend({
     routes: {
-      "": "index"
+      ""          : "index",
+      "about"     : "about",
+      "list/:id"  : "show_list",
+      "error/:id" : "error",
+    },
+    
+    initialize: function( options ){
+      layout_main.setViews({
+        "#nav_site .container-fluid" : new System.Views.Header({ model: board }),
+        "#nav_pages"  : new System.Views.Nav({ model: board })
+      });
+      layout_main.render(function( el ){ $("#main").html( el ) }); 
+          
+      board.fetch({
+        "success":function( d ){},
+        "error":function( d ){ app.router.navigate( '/error/500', { trigger: true, replace: true }); }
+      });
     },
 
     index: function() {
-      window.trello = Trello;
-      window.board = new Trello.Board({ id: "4fefd4a85ded96a71c1e617f" })
-      window.board.fetch({ 
-        "success":function(d){ console.log( "fetch success", d.toJSON() )},
-        "error":function(d){ console.log( "fetch error", d )}
-      });
-      
-      var main = new Backbone.LayoutManager({
-        template: "main"
-      });
-      main.setViews({
-        "#contents": new Trello.Views.Index({ model: board })
-      });
-      main.render(function(el) {
-        $("#main").html(el);   
+      var self = this;
+      layout_main.setViews({
+        "#contents": new Trello.Views.Index({ model: board }) 
+      })
+    },
+    
+    about: function(){
+      console.log( 'CONTACT ROUTE' )
+    },
+    
+    show_list: function( id ){
+      var list_view = new Trello.Views.List({ idList:id, model: board });
+      layout_main.setViews({ "#contents": list_view });
+      //@TODO:  I shouldn't have to do this...
+      layout_main.render(function( el ){ $("#main").html( el ) }); 
+    },
+    
+    error: function( error ){
+      layout_main.setViews({ 
+        "#contents": new System.Views.Error({ error_code:error })
       });
     }
   });
 
-  // Shorthand the application namespace
-  var app = namespace.app;
-
-  // Treat the jQuery ready function as the entry point to the application.
-  // Inside this function, kick-off all initialization, everything up to this
-  // point should be definitions.
   $(function() {
-    // Define your master router on the application namespace and trigger all
-    // navigation from this instance.
     app.router = new Router();
-
-    // Trigger the initial route and enable HTML5 History API support
     Backbone.history.start({ pushState: false });
   });
 

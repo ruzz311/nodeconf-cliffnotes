@@ -1,0 +1,7 @@
+
+<ul class="nav nav-list">
+  <li class="nav-header">Conference Schedule</li>
+  {{#each board.lists}}
+    <li><a href="#list/{{this.id}}" data-listID="{{this.id}}">{{this.name}}</a></li>
+  {{/each}}
+</ul>

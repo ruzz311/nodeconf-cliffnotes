@@ -1,0 +1,9 @@
+{
+  "appname": "nodeconf-cliffnotes",
+  "key": "b5e25e5572e0628192ad0c9067a2fb2d",
+  "token": "757f58c0c18a67899634e3a4b42f4709bf5f5445dcf830544367e777606b1709",
+  "version": 1,
+  "boards": {
+    "nodeconf": "4fefd4a85ded96a71c1e617f"
+  }
+}
