@@ -7,7 +7,7 @@ define([
   "use!bootstrap",
 
   // Plugins
-  "use!plugins/backbone.layoutmanager"
+  "use!plugins/backbone.layoutmanager",
 ],
 
 function($, _, Backbone, Handlebars, Bootstrap) {

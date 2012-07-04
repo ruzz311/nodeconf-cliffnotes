@@ -282,6 +282,21 @@ body {
   text-align: center;
 }
 
+#trelloList .row-fluid [class*="span"] {
+  margin-left: 2.127659574%;
+  margin-top: 2em;
+}
+#trelloList .row-fluid p {
+  padding-left: 4em;
+  font-weight: 300;
+}
+  
+
+#trelloList h2 em {
+  font-size: .65em;
+  font-weight: 400
+}
+
 /* ==|== media queries ======================================================
    PLACEHOLDER Media Queries for Responsive Design.
    These override the primary ('mobile first') styles

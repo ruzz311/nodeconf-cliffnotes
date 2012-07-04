@@ -1,16 +1,21 @@
-
+<div class="row-fluid">
 {{#each cards}}
   <div class="span12">
-    <h2>{{this.name}}</h2>
-    <h3>{{ this.due }}</h3>
-    <p>{{this.desc}}</p>
-    {{# if this.actions}}
+    <h2>
+      {{#if this.due}}
+      <em>{{ formatDate this.due }} &nbsp;</em>
+      {{/if}}
+      <strong>{{ this.name }}</strong>
+    </h2>
+    <p>{{ htmlify this.desc }}</p>
+    {{# if this.actions }}
       <ul class="notes">
       {{# each this.actions}}
-        <li>{{this.data.text}}</li>
+        <li>{{ htmlify this.data.text }}</li>
       {{/each}}
       <ul>
     {{/if}}
     <!--<p><a class="btn" href="#">View details &raquo;</a></p>-->
   </div><!--/span-->
 {{/each}}
+</div>

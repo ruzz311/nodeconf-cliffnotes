@@ -61,7 +61,8 @@ function( namespace, $, _, Backbone ){
   
   Trello.Views.List = Backbone.View.extend({
     template: "list",
-    className: "row-fluid",
+    id: "trelloList",
+    className: "list",
     
     initialize: function( options ){
       this.model.on( "change", function( ){
