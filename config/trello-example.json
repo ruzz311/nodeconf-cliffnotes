@@ -1,0 +1,9 @@
+{
+  "appname": "your-app-name",
+  "key": "some-key",
+  "token": "some-token",
+  "version": 1,
+  "boards": {
+    "nodeconf": "board-id"
+  }
+}

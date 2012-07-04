@@ -1,0 +1,2497 @@
+{
+  "id": "4fefd4a85ded96a71c1e617f",
+  "name": "Nodeconf",
+  "desc": "",
+  "closed": false,
+  "invited": false,
+  "url": "https://trello.com/board/nodeconf/4fefd4a85ded96a71c1e617f",
+  "prefs": {
+    "permissionLevel": "public",
+    "voting": "public",
+    "comments": "public",
+    "invitations": "members",
+    "selfJoin": false
+  },
+  "invitations": [],
+  "memberships": [{
+    "id": "4fefd4a85ded96a71c1e6183",
+    "idMember": "4e8dd176f6bf49919d1e399b",
+    "memberType": "admin"
+  }, {
+    "id": "4ff3640218f4175b3ad6237e",
+    "idMember": "4e702fe6d615d70000017a0e",
+    "memberType": "normal"
+  }],
+  "labelNames": {
+    "yellow": "Events",
+    "red": "sponsor",
+    "purple": "",
+    "orange": "Info",
+    "green": "Talks",
+    "blue": ""
+  },
+  "lists": [{
+    "id": "4fefd4a85ded96a71c1e6181",
+    "name": "Day 1 :: July 02 2012",
+    "closed": false,
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "pos": 32768
+  }, {
+    "id": "4fefd4a85ded96a71c1e6182",
+    "name": "Day 2 :: July 03 2012",
+    "closed": false,
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "pos": 49152
+  }, {
+    "id": "4fefd4a85ded96a71c1e6180",
+    "name": "Info",
+    "closed": false,
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "pos": 114688
+  }, {
+    "id": "4ff1e53fd359dadd52214305",
+    "name": "Sponsors",
+    "closed": true,
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "pos": 180224
+  }],
+  "cards": [{
+    "id": "4fefd4f0765cf9d5436a47ba",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "checkItems": 0,
+      "checkItemsChecked": 0,
+      "comments": 1,
+      "attachments": 0,
+      "description": false,
+      "due": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 2,
+    "labels": [{
+      "color": "yellow",
+      "name": "Events"
+    }],
+    "name": "Breakfast",
+    "pos": 65535,
+    "url": "https://trello.com/card/breakfast/4fefd4a85ded96a71c1e617f/2"
+  }, {
+    "id": "4ff1db9cc71a6347481a09a6",
+    "badges": {
+      "votes": 1,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "checkItems": 0,
+      "checkItemsChecked": 0,
+      "comments": 11,
+      "attachments": 0,
+      "description": true,
+      "due": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Twitter: https://twitter.com/ryah  \nSlides: http://tinyclouds.org/nodeconf2012.pdf",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 6,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Ryan Dahl - Influences of Node; benevolent Dictator Emeritus",
+    "pos": 196607,
+    "url": "https://trello.com/card/ryan-dahl-influences-of-node-benevolent-dictator-emeritus/4fefd4a85ded96a71c1e617f/6"
+  }, {
+    "id": "4ff1e037591c0dda5217f992",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "checkItems": 0,
+      "checkItemsChecked": 0,
+      "comments": 13,
+      "attachments": 0,
+      "description": true,
+      "due": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Microsoft...  \nmatthewp@microsoft.com  \n@mattpodwysocki",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 7,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Matthew Podwysocki - \"oh the places you'll node\"",
+    "pos": 262143,
+    "url": "https://trello.com/card/matthew-podwysocki-oh-the-places-you-ll-node/4fefd4a85ded96a71c1e617f/7"
+  }, {
+    "id": "4ff1e5a9e60cc3553a1d58a3",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-02T18:15:00.000Z",
+      "description": true,
+      "comments": 5,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Twitter: https://twitter.com/mde\n\nProjects: Geddy, Jake, TimezoneJS  ",
+    "due": "2012-07-02T18:15:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 13,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Matthew Eernisse - Two Years of Nodejs at Yammer",
+    "pos": 327679,
+    "url": "https://trello.com/card/matthew-eernisse-two-years-of-nodejs-at-yammer/4fefd4a85ded96a71c1e617f/13"
+  }, {
+    "id": "4ff1e9e57629cb420d1ae1aa",
+    "badges": {
+      "votes": 2,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-02T18:35:00.000Z",
+      "description": true,
+      "comments": 9,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "blog: http://blog.izs.me/  \ngithub: https://github.com/isaacs  \ntwitter: https://twitter.com/izs  \n\nSlides: http://j.mp/2012-state-of-the-node",
+    "due": "2012-07-02T18:35:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 15,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Isaac Schlueter - State of Node",
+    "pos": 393215,
+    "url": "https://trello.com/card/isaac-schlueter-state-of-node/4fefd4a85ded96a71c1e617f/15"
+  }, {
+    "id": "4ff1ee8825f9df4a3a1f2b69",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-02T18:55:00.000Z",
+      "description": false,
+      "comments": 0,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "",
+    "due": "2012-07-02T18:55:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 16,
+    "labels": [{
+      "color": "yellow",
+      "name": "Events"
+    }],
+    "name": "- Lunch Break -",
+    "pos": 458751,
+    "url": "https://trello.com/card/lunch-break/4fefd4a85ded96a71c1e617f/16"
+  }, {
+    "id": "4ff20d1825ff81493a2fbc77",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-02T21:00:00.000Z",
+      "description": true,
+      "comments": 2,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Twitter: https://twitter.com/#!/visnup  \nOfficial Site: http://nodeknockout.com/  \nSlides: http://nodeknockout.com/tell-me-a-story  ",
+    "due": "2012-07-02T21:00:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 17,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Visnu Pitiyanuvath - Node-knockout",
+    "pos": 524287,
+    "url": "https://trello.com/card/visnu-pitiyanuvath-node-knockout/4fefd4a85ded96a71c1e617f/17"
+  }, {
+    "id": "4ff210549106cdd6523795fe",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-02T21:20:00.000Z",
+      "description": true,
+      "comments": 9,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Company: Learnboost  \nTwiter: https://twitter.com/#!/Rauchg  \nGithub: https://github.com/guille",
+    "due": "2012-07-02T21:20:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 18,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Guillermo Rauch - Origins & Beyond",
+    "pos": 589823,
+    "url": "https://trello.com/card/guillermo-rauch-origins-beyond/4fefd4a85ded96a71c1e617f/18"
+  }, {
+    "id": "4ff2183cc98168544e11bfb5",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-02T21:50:00.000Z",
+      "description": true,
+      "comments": 1,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Twitter: http://twitter.com/dshaw  \n\n1.  RedisStore Docs  \n2.  Socket.io-Announce  \n3.  Redis monitor  \n\nRedis-store Docs: https://github.com/dshaw/RedisStore-Docs\nRedis-Monitor: https://github.com/dshaw/redis-monitor\n",
+    "due": "2012-07-02T21:50:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 19,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Daniel Shaw - More Realtime",
+    "pos": 655359,
+    "url": "https://trello.com/card/daniel-shaw-more-realtime/4fefd4a85ded96a71c1e617f/19"
+  }, {
+    "id": "4ff21c98167df5410d2b46ec",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-02T22:00:00.000Z",
+      "description": true,
+      "comments": 1,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Slides: http://mixu.net/slides/nodeconf/  \nFree Books: http://book.mixu.net/  \nTwitter: http://twitter.com/mikitotakada  \nGithub: https://github.com/mixu  \nEmployer: ZenDesk  ",
+    "due": "2012-07-02T22:00:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 20,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Mikito Takada - Realtime best practices",
+    "pos": 720895,
+    "url": "https://trello.com/card/mikito-takada-realtime-best-practices/4fefd4a85ded96a71c1e617f/20"
+  }, {
+    "id": "4ff222e690c1bf27451bf214",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-02T22:30:00.000Z",
+      "description": false,
+      "comments": 0,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "",
+    "due": "2012-07-02T22:30:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 21,
+    "labels": [{
+      "color": "yellow",
+      "name": "Events"
+    }],
+    "name": "- Afternoon Break -",
+    "pos": 786431,
+    "url": "https://trello.com/card/afternoon-break/4fefd4a85ded96a71c1e617f/21"
+  }, {
+    "id": "4ff22f20fe637f533a46b97c",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-02T23:30:00.000Z",
+      "description": true,
+      "comments": 3,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Twitter: http://twitter.com/piscisaureus",
+    "due": "2012-07-02T23:30:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 22,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Bert Belder - libuv, the little lib that could",
+    "pos": 851967,
+    "url": "https://trello.com/card/bert-belder-libuv-the-little-lib-that-could/4fefd4a85ded96a71c1e617f/22"
+  }, {
+    "id": "4ff23509d359dadd524c9e32",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-02T23:55:00.000Z",
+      "description": true,
+      "comments": 3,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Twitter: http://twitter.com/indutny  \nGithub: https://github.com/indutny  \nEmployer: nodejitsu  \n\nSlides: https://t.co/jLq2mREu  \nCandor: http://candor-lang.org  \nCandor Src: https://github.com/indutny/candor/",
+    "due": "2012-07-02T23:55:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 23,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Fedor Indutny - Candor",
+    "pos": 917503,
+    "url": "https://trello.com/card/fedor-indutny-candor/4fefd4a85ded96a71c1e617f/23"
+  }, {
+    "id": "4ff23a9b9b6b76440d3b026d",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T00:20:00.000Z",
+      "description": true,
+      "comments": 6,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Twitter: http://twitter.com/substack  \nGithub: https://github.com/substack  ",
+    "due": "2012-07-03T00:20:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 24,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "substack - \"things that are interesting\"",
+    "pos": 983039,
+    "url": "https://trello.com/card/substack-things-that-are-interesting/4fefd4a85ded96a71c1e617f/24"
+  }, {
+    "id": "4ff23ff47d3595450d42e4dd",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "checkItems": 0,
+      "checkItemsChecked": 0,
+      "comments": 0,
+      "attachments": 0,
+      "description": true,
+      "due": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Most Prolific: Substack  \n\nCommunity Service: Issac  \n\nBug Squasher: fedor  \n",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 25,
+    "labels": [],
+    "name": "Awards",
+    "pos": 1048575,
+    "url": "https://trello.com/card/awards/4fefd4a85ded96a71c1e617f/25"
+  }, {
+    "id": "4ff24084c98168544e241b32",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T00:40:00.000Z",
+      "description": true,
+      "comments": 5,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Github: https://github.com/carter-thaxton\n\n\nWhat can you build with node?  \nKaraoke... that's what\n\nVoicebox\nhttp://voiceboxpdx.com/api",
+    "due": "2012-07-03T00:40:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 26,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Carter Thaxton & Scott Simon",
+    "pos": 1114111,
+    "url": "https://trello.com/card/carter-thaxton-scott-simon/4fefd4a85ded96a71c1e617f/26"
+  }, {
+    "id": "4ff244061020a7cd52382fde",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "checkItems": 0,
+      "checkItemsChecked": 0,
+      "comments": 1,
+      "attachments": 0,
+      "description": true,
+      "due": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "**Voicebox**  \n2112 NW Hoyt  \n\nSponsored by Nodjitsu",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6181",
+    "idMembers": [],
+    "idShort": 27,
+    "labels": [{
+      "color": "yellow",
+      "name": "Events"
+    }],
+    "name": "Nodeconf Afterparty!",
+    "pos": 1179647,
+    "url": "https://trello.com/card/nodeconf-afterparty/4fefd4a85ded96a71c1e617f/27"
+  }, {
+    "id": "4ff24441e82fedd8524c59f5",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T16:00:00.000Z",
+      "description": false,
+      "comments": 0,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "",
+    "due": "2012-07-03T16:00:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 28,
+    "labels": [{
+      "color": "yellow",
+      "name": "Events"
+    }],
+    "name": "Breakfast",
+    "pos": 65535,
+    "url": "https://trello.com/card/breakfast/4fefd4a85ded96a71c1e617f/28"
+  }, {
+    "id": "4ff328392ba1dcc56416decb",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T17:10:00.000Z",
+      "description": true,
+      "comments": 4,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 1
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Slides / Examples: https://github.com/creationix/nodeconf2012  \nGooglePlus: https://plus.google.com/u/0/103540913304694267088/  \nTwitter: https://twitter.com/creationix/  \nGithub: https://github.com/creationix/  \nEmployer: Cloud9IDE  \n\nWriting libuv bindings  \nLua + libuv + jit = Luvit",
+    "due": "2012-07-03T17:10:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 29,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Tim Casswell - Porting Node",
+    "pos": 131071,
+    "url": "https://trello.com/card/tim-casswell-porting-node/4fefd4a85ded96a71c1e617f/29"
+  }, {
+    "id": "4ff32f1eeeb560d152ed8eec",
+    "badges": {
+      "votes": 1,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T17:40:00.000Z",
+      "description": true,
+      "comments": 3,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 1
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Twitter: http://twitter.com/polotek  \nEmployer: Yammer  \n",
+    "due": "2012-07-03T17:40:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 30,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Marco Rogers - Node Streams",
+    "pos": 196607,
+    "url": "https://trello.com/card/marco-rogers-node-streams/4fefd4a85ded96a71c1e617f/30"
+  }, {
+    "id": "4ff3362861e446756c2ba62f",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T18:13:00.000Z",
+      "description": true,
+      "comments": 5,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 1
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Twitter: http://twitter.com/felixge  ",
+    "due": "2012-07-03T18:13:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 31,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Felix Geisendörfer - Fast Binary Stream Parsing",
+    "pos": 262143,
+    "url": "https://trello.com/card/felix-geisendorfer-fast-binary-stream-parsing/4fefd4a85ded96a71c1e617f/31"
+  }, {
+    "id": "4ff33b53eeb560d152f87c27",
+    "badges": {
+      "votes": 1,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T18:35:00.000Z",
+      "description": true,
+      "comments": 8,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 1
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Site: http://www.maxogden.com/  \nTwitter: https://twitter.com/maxogden  \nGithub: https://github.com/maxogden  ",
+    "due": "2012-07-03T18:35:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 32,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Max Ogdon - Streams are Useful When Writing Javascript Programs",
+    "pos": 327679,
+    "url": "https://trello.com/card/max-ogdon-streams-are-useful-when-writing-javascript-programs/4fefd4a85ded96a71c1e617f/32"
+  }, {
+    "id": "4ff340800b9525073293a86f",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T18:57:00.000Z",
+      "description": true,
+      "comments": 2,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Site: http://ranney.com/  \nGithub: https://github.com/mranney  \nTwitter: https://twitter.com/mranney  \nEmployer: Voxer",
+    "due": "2012-07-03T18:57:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 33,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Matt Ranney - Streams at Scale",
+    "pos": 393215,
+    "url": "https://trello.com/card/matt-ranney-streams-at-scale/4fefd4a85ded96a71c1e617f/33"
+  }, {
+    "id": "4ff344d0d0b1db1e6303d212",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T19:15:00.000Z",
+      "description": false,
+      "comments": 0,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "",
+    "due": "2012-07-03T19:15:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 34,
+    "labels": [{
+      "color": "yellow",
+      "name": "Events"
+    }],
+    "name": "- Lunch Break -",
+    "pos": 458751,
+    "url": "https://trello.com/card/lunch-break/4fefd4a85ded96a71c1e617f/34"
+  }, {
+    "id": "4ff359a8778bdff73b5acdf3",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T20:45:00.000Z",
+      "description": true,
+      "comments": 1,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Twitter: http://twitter.com/hij1nx  \nGithub: https://github.com/hij1nx  \nEmployer: Nodejitsu  ",
+    "due": "2012-07-03T20:45:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 35,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Paolo Fragomeni - ? (debugging/complexity)",
+    "pos": 524287,
+    "url": "https://trello.com/card/paolo-fragomeni-debugging-complexity/4fefd4a85ded96a71c1e617f/35"
+  }, {
+    "id": "4ff35eecf3b4686109034eb9",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T21:05:00.000Z",
+      "description": true,
+      "comments": 3,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Twitter: http://twitter.com/dapsays  \nEmployer: Joyent  \n",
+    "due": "2012-07-03T21:05:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 36,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "David Pacheco - DTrace, Node.js, and Flame Graphs",
+    "pos": 589823,
+    "url": "https://trello.com/card/david-pacheco-dtrace-node-js-and-flame-graphs/4fefd4a85ded96a71c1e617f/36"
+  }, {
+    "id": "4ff3645d4a7167540d00d4ca",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T21:30:00.000Z",
+      "description": true,
+      "comments": 4,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Site: http://dannycoates.com  \nTwitter: http://twitter.com/antiserf  \nGithub: https://github.com/dannycoates  \nEmployer: Voxer",
+    "due": "2012-07-03T21:30:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 37,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Danny Coates - You've got a memory leak",
+    "pos": 655359,
+    "url": "https://trello.com/card/danny-coates-you-ve-got-a-memory-leak/4fefd4a85ded96a71c1e617f/37"
+  }, {
+    "id": "4ff36b0a6004e1d052b24136",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T22:00:00.000Z",
+      "description": true,
+      "comments": 3,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Site: http://jedparsons.com/  \nGithub: https://github.com/jedp  \nTwitter: http://twitter.com/jedly",
+    "due": "2012-07-03T22:00:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 39,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Jed Parsons - Memory Leaks.  So What?",
+    "pos": 720895,
+    "url": "https://trello.com/card/jed-parsons-memory-leaks-so-what/4fefd4a85ded96a71c1e617f/39"
+  }, {
+    "id": "4ff3702f6c10dbcb52dcd745",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T22:20:00.000Z",
+      "description": false,
+      "comments": 0,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "",
+    "due": "2012-07-03T22:20:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 40,
+    "labels": [{
+      "color": "yellow",
+      "name": "Events"
+    }],
+    "name": "- Afternoon Break -",
+    "pos": 786431,
+    "url": "https://trello.com/card/afternoon-break/4fefd4a85ded96a71c1e617f/40"
+  }, {
+    "id": "4ff37b27f48b5fd03000132b",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T23:07:00.000Z",
+      "description": true,
+      "comments": 1,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Twitter:  http://twitter.com/nexxylove  \nTumblr: http://nexxylove.tumblr.com/  \n ",
+    "due": "2012-07-03T23:07:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 41,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Emily Rose - LOLWAT",
+    "pos": 851967,
+    "url": "https://trello.com/card/emily-rose-lolwat/4fefd4a85ded96a71c1e617f/41"
+  }, {
+    "id": "4ff37fee9ec03afc4a2b6328",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T23:27:00.000Z",
+      "description": true,
+      "comments": 2,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Site: http://russellhay.com/  \nTwitter: http://twitter.com/russellhay  \nGithub: https://github.com/RussTheAerialist  ",
+    "due": "2012-07-03T23:27:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 42,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Russell Hay - Node and SPI",
+    "pos": 917503,
+    "url": "https://trello.com/card/russell-hay-node-and-spi/4fefd4a85ded96a71c1e617f/42"
+  }, {
+    "id": "4ff38478bc057f0a3a262797",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-03T23:40:00.000Z",
+      "description": true,
+      "comments": 4,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Twitter: http://twitter.com/rwaldron  \nGithub: http://github.com/rwldrn  ",
+    "due": "2012-07-03T23:40:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 43,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Rick Waldron - johnny-five",
+    "pos": 983039,
+    "url": "https://trello.com/card/rick-waldron-johnny-five/4fefd4a85ded96a71c1e617f/43"
+  }, {
+    "id": "4ff388894e4aee555c7e787e",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-04T00:00:00.000Z",
+      "description": true,
+      "comments": 5,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "Twitter: http://twitter.com/tmpvar  \nGithub: https://github.com/tmpvar  \nStackOverflow: http://stackoverflow.com/users/132424/tmpvar  ",
+    "due": "2012-07-04T00:00:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 44,
+    "labels": [{
+      "color": "green",
+      "name": "Talks"
+    }],
+    "name": "Elijah Insua - How I use node to communicate with hardware",
+    "pos": 1048575,
+    "url": "https://trello.com/card/elijah-insua-how-i-use-node-to-communicate-with-hardware/4fefd4a85ded96a71c1e617f/44"
+  }, {
+    "id": "4ff39084cc8256ca52e63ba5",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "due": "2012-07-04T00:40:00.000Z",
+      "description": false,
+      "comments": 0,
+      "checkItemsChecked": 0,
+      "checkItems": 0,
+      "attachments": 0
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "",
+    "due": "2012-07-04T00:40:00.000Z",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 45,
+    "labels": [],
+    "name": "- Closing Remarks -",
+    "pos": 1114111,
+    "url": "https://trello.com/card/closing-remarks/4fefd4a85ded96a71c1e617f/45"
+  }, {
+    "id": "4ff391089883952645686dd9",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "checkItems": 0,
+      "checkItemsChecked": 0,
+      "comments": 0,
+      "attachments": 0,
+      "description": false,
+      "due": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6182",
+    "idMembers": [],
+    "idShort": 46,
+    "labels": [],
+    "name": "Nodeconf Afterparty!",
+    "pos": 1179647,
+    "url": "https://trello.com/card/nodeconf-afterparty/4fefd4a85ded96a71c1e617f/46"
+  }, {
+    "id": "4fefd4f5765cf9d5436a4823",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "checkItems": 0,
+      "checkItemsChecked": 0,
+      "comments": 0,
+      "attachments": 0,
+      "description": true,
+      "due": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "http://twitter.com/nodeconf",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6180",
+    "idMembers": [],
+    "idShort": 3,
+    "labels": [{
+      "color": "orange",
+      "name": "Info"
+    }],
+    "name": "Watch Twitter",
+    "pos": 131071,
+    "url": "https://trello.com/card/watch-twitter/4fefd4a85ded96a71c1e617f/3"
+  }, {
+    "id": "4ff368816004e1d052b08f9a",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "checkItems": 0,
+      "checkItemsChecked": 0,
+      "comments": 0,
+      "attachments": 0,
+      "description": true,
+      "due": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "http://eventifier.co/event/nodeconf/",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6180",
+    "idMembers": [],
+    "idShort": 38,
+    "labels": [{
+      "color": "orange",
+      "name": "Info"
+    }],
+    "name": "View Media",
+    "pos": 262143,
+    "url": "https://trello.com/card/view-media/4fefd4a85ded96a71c1e617f/38"
+  }, {
+    "id": "4ff1e544d359dadd5221524e",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "checkItems": 0,
+      "checkItemsChecked": 0,
+      "comments": 0,
+      "attachments": 0,
+      "description": false,
+      "due": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6180",
+    "idMembers": [],
+    "idShort": 8,
+    "labels": [{
+      "color": "red",
+      "name": "sponsor"
+    }],
+    "name": "Voxer",
+    "pos": 327679,
+    "url": "https://trello.com/card/voxer/4fefd4a85ded96a71c1e617f/8"
+  }, {
+    "id": "4ff1e54dd359dadd52215744",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "checkItems": 0,
+      "checkItemsChecked": 0,
+      "comments": 0,
+      "attachments": 0,
+      "description": false,
+      "due": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6180",
+    "idMembers": [],
+    "idShort": 9,
+    "labels": [{
+      "color": "red",
+      "name": "sponsor"
+    }],
+    "name": "Joyent",
+    "pos": 393215,
+    "url": "https://trello.com/card/joyent/4fefd4a85ded96a71c1e617f/9"
+  }, {
+    "id": "4ff1e550d359dadd52215b97",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "checkItems": 0,
+      "checkItemsChecked": 0,
+      "comments": 0,
+      "attachments": 0,
+      "description": false,
+      "due": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6180",
+    "idMembers": [],
+    "idShort": 10,
+    "labels": [{
+      "color": "red",
+      "name": "sponsor"
+    }],
+    "name": "Yammer",
+    "pos": 458751,
+    "url": "https://trello.com/card/yammer/4fefd4a85ded96a71c1e617f/10"
+  }, {
+    "id": "4ff1e556d359dadd52215d9c",
+    "badges": {
+      "votes": 1,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "checkItems": 0,
+      "checkItemsChecked": 0,
+      "comments": 0,
+      "attachments": 0,
+      "description": false,
+      "due": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6180",
+    "idMembers": [],
+    "idShort": 11,
+    "labels": [{
+      "color": "red",
+      "name": "sponsor"
+    }],
+    "name": "MDN",
+    "pos": 524287,
+    "url": "https://trello.com/card/mdn/4fefd4a85ded96a71c1e617f/11"
+  }, {
+    "id": "4ff1e55ad359dadd52216117",
+    "badges": {
+      "votes": 0,
+      "viewingMemberVoted": false,
+      "subscribed": false,
+      "fogbugz": "",
+      "checkItems": 0,
+      "checkItemsChecked": 0,
+      "comments": 0,
+      "attachments": 0,
+      "description": false,
+      "due": null
+    },
+    "checkItemStates": [],
+    "closed": false,
+    "desc": "",
+    "idBoard": "4fefd4a85ded96a71c1e617f",
+    "idChecklists": [],
+    "idList": "4fefd4a85ded96a71c1e6180",
+    "idMembers": [],
+    "idShort": 12,
+    "labels": [{
+      "color": "red",
+      "name": "sponsor"
+    }],
+    "name": "SendGrid",
+    "pos": 589823,
+    "url": "https://trello.com/card/sendgrid/4fefd4a85ded96a71c1e617f/12"
+  }],
+  "actions": [{
+    "id": "4ff38c0f18e9b0d932ce3ffb",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "fingerpen = webGL + Canary + Gamepad.js(ps3 controller) and probably more stuff",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Elijah Insua - How I use node to communicate with hardware",
+        "idShort": 44,
+        "id": "4ff388894e4aee555c7e787e"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-04T00:19:27.263Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff38b47332a7a2945834c81",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "a repl for grbl : https://github.com/tmpvar/node-grbl",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Elijah Insua - How I use node to communicate with hardware",
+        "idShort": 44,
+        "id": "4ff388894e4aee555c7e787e"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-04T00:16:07.001Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff38b1432d2f43d4b275110",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "gcode compiler and CNC milling controller for arduino : https://github.com/grbl/grbl",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Elijah Insua - How I use node to communicate with hardware",
+        "idShort": 44,
+        "id": "4ff388894e4aee555c7e787e"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-04T00:15:16.454Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff38ab90d5e14fa6112c270",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "Simulate gcode with webGL and svg2gcode : https://github.com/tmpvar/gcode-simulator",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Elijah Insua - How I use node to communicate with hardware",
+        "idShort": 44,
+        "id": "4ff388894e4aee555c7e787e"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-04T00:13:45.141Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff388b518957f175f0ef904",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "http://www.tmpvar.com/project/tmpad/",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Elijah Insua - How I use node to communicate with hardware",
+        "idShort": 44,
+        "id": "4ff388894e4aee555c7e787e"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-04T00:05:09.280Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff385ee332a7a2945826bd5",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "Joystick controlled lazer... yes plz",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Rick Waldron - johnny-five",
+        "idShort": 43,
+        "id": "4ff38478bc057f0a3a262797"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T23:53:18.496Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff385ba4e4aee555c7e193e",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "Joystick controlled robot claw... yes plz",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Rick Waldron - johnny-five",
+        "idShort": 43,
+        "id": "4ff38478bc057f0a3a262797"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T23:52:26.979Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff38550fe637f533afd1d05",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "http://firmata.org/ is the protocol that arduino already talks",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Rick Waldron - johnny-five",
+        "idShort": 43,
+        "id": "4ff38478bc057f0a3a262797"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T23:50:40.396Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff3852941253c075aadf84a",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "johnny-five source can be found: https://github.com/rwldrn/johnny-five",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Rick Waldron - johnny-five",
+        "idShort": 43,
+        "id": "4ff38478bc057f0a3a262797"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T23:50:01.798Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff381686004e1d052c1fbb6",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "Used Beagleboard XM, Saleae Logic Analyzer",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Russell Hay - Node and SPI",
+        "idShort": 42,
+        "id": "4ff37fee9ec03afc4a2b6328"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T23:34:00.223Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff3806e9ec03afc4a2be256",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "SPI : 4-wire interface between a master/slave w/ full duplex",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Russell Hay - Node and SPI",
+        "idShort": 42,
+        "id": "4ff37fee9ec03afc4a2b6328"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T23:29:50.276Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff37e3d9bb077f32601cae9",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "Arduino fun with proximity based phone alerts",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Emily Rose - LOLWAT",
+        "idShort": 41,
+        "id": "4ff37b27f48b5fd03000132b"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T23:20:29.542Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff36ca232d2f43d4b1e98d5",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "What the hell happened last night? This happened: http://voiceboxpdx.com/nodeconf-2012-aftermath/",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Nodeconf Afterparty!",
+        "idShort": 27,
+        "id": "4ff244061020a7cd52382fde"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T22:05:22.671Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff36c74bd5500191a2baefe",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "Felix Geisendörfer Debugging memory leaks in node.js  https://github.com/felixge/node-memory-leak-tutorial",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Jed Parsons - Memory Leaks.  So What?",
+        "idShort": 39,
+        "id": "4ff36b0a6004e1d052b24136"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T22:04:36.883Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff36b83e60cc3553adcbd89",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "Node Memwatch Demo (https://github.com/jedp/node-memwatch-demo)",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Jed Parsons - Memory Leaks.  So What?",
+        "idShort": 39,
+        "id": "4ff36b0a6004e1d052b24136"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T22:00:35.796Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff36b2d6004e1d052b24d18",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "Node Memwatch (https://github.com/lloyd/node-memwatch)",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Jed Parsons - Memory Leaks.  So What?",
+        "idShort": 39,
+        "id": "4ff36b0a6004e1d052b24136"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T21:59:09.554Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff369346004e1d052b0e602",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "Max loves issac's cat",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Max Ogdon - Streams are Useful When Writing Javascript Programs",
+        "idShort": 32,
+        "id": "4ff33b53eeb560d152f87c27"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T21:50:44.118Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff36769f3b468610908f0a9",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "Snapshots are like Pringles - one is never enough",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Danny Coates - You've got a memory leak",
+        "idShort": 37,
+        "id": "4ff3645d4a7167540d00d4ca"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T21:43:05.392Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff36704d0b1db1e631a7b00",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "Wants everybody to stop using node-inspector use node-webkit-agent instead https://github.com/c4milo/node-webkit-agent",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Danny Coates - You've got a memory leak",
+        "idShort": 37,
+        "id": "4ff3645d4a7167540d00d4ca"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T21:41:24.832Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff3657ecf577e247226f8ce",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "Wrote node-inspector https://github.com/dannycoates/node-inspector/",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Danny Coates - You've got a memory leak",
+        "idShort": 37,
+        "id": "4ff3645d4a7167540d00d4ca"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T21:34:54.646Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff3651090c1bf27456d14e7",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "ugotleaksbro? v8-profiler can help ya",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Danny Coates - You've got a memory leak",
+        "idShort": 37,
+        "id": "4ff3645d4a7167540d00d4ca"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T21:33:04.324Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff3632b778bdff73b5fc4e9",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "flame graphs are cool\nhttps://github.com/brendangregg/FlameGraph\nhttp://dtrace.org/blogs/brendan/2012/03/17/linux-kernel-performance-flame-graphs/",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "David Pacheco - DTrace, Node.js, and Flame Graphs",
+        "idShort": 36,
+        "id": "4ff35eecf3b4686109034eb9"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T21:24:59.825Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff360debc057f0a3a139746",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "Example using Restify (https://github.com/mcavage/node-restify/)",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "David Pacheco - DTrace, Node.js, and Flame Graphs",
+        "idShort": 36,
+        "id": "4ff35eecf3b4686109034eb9"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T21:15:10.226Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff360729bb077f326f1ebb4",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "Options to measure async operations: Date.now(), process.hrtime(), or DTrace with system probes",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "David Pacheco - DTrace, Node.js, and Flame Graphs",
+        "idShort": 36,
+        "id": "4ff35eecf3b4686109034eb9"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T21:13:22.023Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff35caaeeb560d1520925c3",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "[ed: i'm not sure what this talk was called - if anyone has it, please add it / let me know]",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Paolo Fragomeni - ? (debugging/complexity)",
+        "idShort": 35,
+        "id": "4ff359a8778bdff73b5acdf3"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T20:57:14.412Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff3440d332a7a29457130a9",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "They use https://github.com/dannycoates/poolee to manage stuck http streams",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Matt Ranney - Streams at Scale",
+        "idShort": 33,
+        "id": "4ff340800b9525073293a86f"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T19:12:13.970Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff343b7332a7a2945710f03",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "Idea of low water/highwater backpressure, keeps buffers from running out and stalling the stream",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Matt Ranney - Streams at Scale",
+        "idShort": 33,
+        "id": "4ff340800b9525073293a86f"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T19:10:47.389Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff33ffd9a1374545c5a2ed8",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "npm domnode - node patterns on the client (see the link below)",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Max Ogdon - Streams are Useful When Writing Javascript Programs",
+        "idShort": 32,
+        "id": "4ff33b53eeb560d152f87c27"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T18:54:53.173Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff33fde9bb077f326dc2d47",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "https://github.com/maxogden/domnode",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Max Ogdon - Streams are Useful When Writing Javascript Programs",
+        "idShort": 32,
+        "id": "4ff33b53eeb560d152f87c27"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T18:54:22.036Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff33f8f30e945483aca52e3",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "npm mediastrem (so many good modules to discover / play with)",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Max Ogdon - Streams are Useful When Writing Javascript Programs",
+        "idShort": 32,
+        "id": "4ff33b53eeb560d152f87c27"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T18:53:03.126Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff33f0c290396c852a1c008",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "http://search.npmjs.org/#/workerstream",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Max Ogdon - Streams are Useful When Writing Javascript Programs",
+        "idShort": 32,
+        "id": "4ff33b53eeb560d152f87c27"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T18:50:52.224Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff33eefe60cc3553abf3efe",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "npm filestream (look at that too)",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Max Ogdon - Streams are Useful When Writing Javascript Programs",
+        "idShort": 32,
+        "id": "4ff33b53eeb560d152f87c27"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T18:50:23.312Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff33e59cc8256ca52c941e4",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "npm workerstream (check that out)",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Max Ogdon - Streams are Useful When Writing Javascript Programs",
+        "idShort": 32,
+        "id": "4ff33b53eeb560d152f87c27"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T18:47:53.806Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff33cd0d4d9a4bc3c08ad23",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "Has an awesome list of client side evented I/O",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Max Ogdon - Streams are Useful When Writing Javascript Programs",
+        "idShort": 32,
+        "id": "4ff33b53eeb560d152f87c27"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T18:41:20.781Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff33ace778bdff73b45b35b",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "Also uses https://github.com/dannycoates/v8-profiler",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Felix Geisendörfer - Fast Binary Stream Parsing",
+        "idShort": 31,
+        "id": "4ff3362861e446756c2ba62f"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T18:32:46.667Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff33a5cf72cf8697092698b",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "felix uses instruments (xcode) to run dtrace for performance analysis",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Felix Geisendörfer - Fast Binary Stream Parsing",
+        "idShort": 31,
+        "id": "4ff3362861e446756c2ba62f"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T18:30:52.582Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff3398bcf577e247208c632",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "You can write javascript modules that can compete with C",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Felix Geisendörfer - Fast Binary Stream Parsing",
+        "idShort": 31,
+        "id": "4ff3362861e446756c2ba62f"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T18:27:23.616Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff337dff72cf869708ef57c",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "\"No comma first, oh my god no.\"",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Felix Geisendörfer - Fast Binary Stream Parsing",
+        "idShort": 31,
+        "id": "4ff3362861e446756c2ba62f"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T18:20:15.470Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff3367732d2f43d4b00fae4",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "Based on experiences from creation of the module \"node-mysql\"",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Felix - Fast Binary Stream Parsing",
+        "idShort": 31,
+        "id": "4ff3362861e446756c2ba62f"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T18:14:15.279Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff33590debb554c3ac30653",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "https://github.com/polotek\nprocstreams - https://github.com/polotek/procstreams",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Marco Rogers - Node Streams",
+        "idShort": 30,
+        "id": "4ff32f1eeeb560d152ed8eec"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T18:10:24.798Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff33364d4d9a4bc3c0234e7",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "v8 doesn't free the memory it used right away (if ever?) so buffering large files is double bad",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Marco Rogers - Node Streams",
+        "idShort": 30,
+        "id": "4ff32f1eeeb560d152ed8eec"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T18:01:08.959Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff333249106cdd652bfcdb8",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "Buffering the data in memory, then sending to a filestream when buffer is complete == slow.  It also chews up memory.\n\nUse pipe() to stream directly to the file as it is available == baller!",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Marco Rogers - Node Streams",
+        "idShort": 30,
+        "id": "4ff32f1eeeb560d152ed8eec"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T18:00:04.462Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff33282a48b59dd042e1264",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "Only libuv docs are the header files https://github.com/joyent/libuv/blob/master/src/uv-common.h",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Tim Casswell - Porting Node",
+        "idShort": 29,
+        "id": "4ff328392ba1dcc56416decb"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T17:57:22.146Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff3324ba48b59dd042de3df",
+    "idMemberCreator": "4e702fe6d615d70000017a0e",
+    "data": {
+      "text": "He didn't know any C or Lua when he started luvit",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Tim Casswell - Porting Node",
+        "idShort": 29,
+        "id": "4ff328392ba1dcc56416decb"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T17:56:27.266Z",
+    "memberCreator": {
+      "id": "4e702fe6d615d70000017a0e",
+      "username": "reconbot",
+      "fullName": "Francis Gulotta",
+      "initials": "FBG",
+      "avatarHash": "07b10a2dd2a593786dfe3aaffe25ff34"
+    }
+  }, {
+    "id": "4ff32a116c10dbcb52aec85f",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "Lua Tables are similar to JS objects but not",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Tim Casswell - Porting Node",
+        "idShort": 29,
+        "id": "4ff328392ba1dcc56416decb"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T17:21:21.984Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff329a9b8b51ed352e8d34e",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "Programming in Lua 2nd Edition (read it!)",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Tim Casswell - Porting Node",
+        "idShort": 29,
+        "id": "4ff328392ba1dcc56416decb"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T17:19:37.005Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff303949bb077f326a5b999",
+    "idMemberCreator": "4f193535c3a64cd56600543b",
+    "data": {
+      "text": "Presentation: https://raw.github.com/indutny/talks/master/07-02-2012-nodeconf-candor.pdf",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Fedor Indutny - Candor",
+        "idShort": 23,
+        "id": "4ff23509d359dadd524c9e32"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T14:37:08.643Z",
+    "memberCreator": {
+      "id": "4f193535c3a64cd56600543b",
+      "username": "raydaly",
+      "fullName": "Ray Daly",
+      "initials": "RD"
+    }
+  }, {
+    "id": "4ff2ff829106cdd6528ff8eb",
+    "idMemberCreator": "4f193535c3a64cd56600543b",
+    "data": {
+      "embedly": "{\"http://www.slideshare.net/mattpodwysocki/oh-the-places-youll-node-13520581\":{\"provider_url\":\"http://www.slideshare.net\",\"description\":\"\\\"Oh the Places You'll Node\\\"Matthew PodwysockiMicrosoft Corporationmatthewp@microsoft.com@mattpodwysocki\",\"title\":\"Oh the Places You'll Node\",\"html\":\"<iframe src=\\\"http://www.slideshare.net/slideshow/embed_code/13520581\\\" width=\\\"396\\\" height=\\\"331\\\" frameborder=\\\"0\\\" marginwidth=\\\"0\\\" marginheight=\\\"0\\\" scrolling=\\\"no\\\" style=\\\"border:1px solid #CCC;border-width:1px 1px 0\\\" allowfullscreen></iframe>\",\"author_name\":\"mattpodwysocki\",\"height\":331,\"width\":396,\"thumbnail_url\":\"http://cdn.slidesharecdn.com/nodeconf-120702161619-phpapp01-thumbnail-2?1341263884\",\"thumbnail_width\":120,\"version\":\"1.0\",\"provider_name\":\"SlideShare\",\"type\":\"rich\",\"thumbnail_height\":90,\"author_url\":\"http://www.slideshare.net/mattpodwysocki\"}}",
+      "text": "Slides at: http://www.slideshare.net/mattpodwysocki/oh-the-places-youll-node-13520581",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Matthew Podwysocki - \"oh the places you'll node\"",
+        "idShort": 7,
+        "id": "4ff1e037591c0dda5217f992"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T14:19:46.940Z",
+    "memberCreator": {
+      "id": "4f193535c3a64cd56600543b",
+      "username": "raydaly",
+      "fullName": "Ray Daly",
+      "initials": "RD"
+    }
+  }, {
+    "id": "4ff243874e4aee555c260bb7",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "**Voicebox**\n2112 NW Hoyt",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Carter Thaxton & Scott Simon",
+        "idShort": 26,
+        "id": "4ff24084c98168544e241b32"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T00:57:43.066Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }, {
+    "id": "4ff24310167df5410d430bf4",
+    "idMemberCreator": "4e8dd176f6bf49919d1e399b",
+    "data": {
+      "text": "Was it worth it?  \"We're a bar with an API\"",
+      "board": {
+        "name": "Nodeconf",
+        "id": "4fefd4a85ded96a71c1e617f"
+      },
+      "card": {
+        "name": "Carter Thaxton & Scott Simon",
+        "idShort": 26,
+        "id": "4ff24084c98168544e241b32"
+      }
+    },
+    "type": "commentCard",
+    "date": "2012-07-03T00:55:44.234Z",
+    "memberCreator": {
+      "id": "4e8dd176f6bf49919d1e399b",
+      "username": "russellmadsen",
+      "fullName": "Russell Madsen",
+      "initials": "RWM",
+      "avatarHash": "a8bbeb9f3c1e23c3981f71e3f0eb1030"
+    }
+  }]
+}
