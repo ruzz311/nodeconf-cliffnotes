@@ -15,11 +15,7 @@ function( namespace, $, Backbone, Trello, System ){
   // Shorthand the application namespace
   var app = namespace.app,
       board = new Trello.Board({ id: "4fefd4a85ded96a71c1e617f" }),
-      layout_main = new Backbone.LayoutManager({
-        template: "main"
-      });
-  
-  window.test = board
+      layout_main = new Backbone.LayoutManager({ template: "main" });
   
   var Router = Backbone.Router.extend({
     routes: {
@@ -34,7 +30,6 @@ function( namespace, $, Backbone, Trello, System ){
         "#nav_site .container-fluid" : new System.Views.Header({ model: board }),
         "#nav_pages"  : new System.Views.Nav({ model: board })
       });
-      layout_main.render(function( el ){ $("#main").html( el ) }); 
           
       board.fetch({
         "success":function( d ){},
@@ -43,10 +38,9 @@ function( namespace, $, Backbone, Trello, System ){
     },
 
     index: function() {
-      var self = this;
-      layout_main.setViews({
-        "#contents": new Trello.Views.Index({ model: board }) 
-      })
+      var index_view = new Trello.Views.Index({ model: board }) 
+      layout_main.setViews({ "#contents": index_view })
+      layout_main.render(function( el ){ $("#main").html( el ) });
     },
     
     about: function(){
@@ -56,14 +50,14 @@ function( namespace, $, Backbone, Trello, System ){
     show_list: function( id ){
       var list_view = new Trello.Views.List({ idList:id, model: board });
       layout_main.setViews({ "#contents": list_view });
-      //@TODO:  I shouldn't have to do this...
+      //@TODO:  I don't think I should have to do this render...
       layout_main.render(function( el ){ $("#main").html( el ) }); 
     },
     
     error: function( error ){
-      layout_main.setViews({ 
-        "#contents": new System.Views.Error({ error_code:error })
-      });
+      var error_view = new System.Views.Error({ error_code:error })
+      layout_main.setViews({ "#contents": error_view });
+      layout_main.render(function( el ){ $("#main").html( el ) }); 
     }
   });
 

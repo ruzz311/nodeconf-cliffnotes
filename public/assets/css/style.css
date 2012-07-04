@@ -278,6 +278,9 @@ body {
   color: #FE57A1;
 }
 
+#main .hero-unit {
+  text-align: center;
+}
 
 /* ==|== media queries ======================================================
    PLACEHOLDER Media Queries for Responsive Design.
