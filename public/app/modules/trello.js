@@ -71,7 +71,6 @@ function( namespace, $, _, Backbone ){
     
     serialize: function(){
       var cards = this.model.get_list( this.options.idList )
-      console.log( cards );
       return { cards: cards };
     }
     

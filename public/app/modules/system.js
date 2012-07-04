@@ -15,11 +15,13 @@ function( namespace, $, Backbone ){
   var System = namespace.module(),
       app = namespace.app,
       common_init = function( options ){
-        console.log( 'init', this, options )
         this.model.on( "change", function( ){ this.render() }, this );
       },
       common_serialize = function(){ 
         return { board: this.model.toJSON() } 
+      }
+      common_render = function(){
+        
       }
       
   System.Views.Header = Backbone.View.extend({

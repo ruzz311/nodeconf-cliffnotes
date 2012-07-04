@@ -44,7 +44,7 @@ function( namespace, $, Backbone, Trello, System ){
     },
     
     about: function(){
-      console.log( 'CONTACT ROUTE' )
+      console.log( 'ABOUT ROUTE... hey that rhymes' )
     },
     
     show_list: function( id ){
