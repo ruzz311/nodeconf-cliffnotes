@@ -9,12 +9,14 @@ define([
   // Modules
 
   // Plugins
+  "use!plugins/markdown.converter"
 ],
 
-function( namespace, $, Backbone, Handlebars ){
+function( namespace, $, Backbone, Handlebars, Markdown ){
   
   var Helpers = namespace.module(),
-      app = namespace.app;
+      app = namespace.app,
+      converter = new Markdown.Converter();
   
   String.prototype.parseURL = function() {
     return this.replace(/[A-Za-z]+:\/\/[A-Za-z0-9-_]+\.[A-Za-z0-9-_:%&~\?\/.=]+/g, function(url) {
@@ -40,6 +42,10 @@ function( namespace, $, Backbone, Handlebars ){
 
   Handlebars.registerHelper( "fancyPost", function( str ){
     return new Handlebars.SafeString( str.parseURL().parseUsername().parseHashtag() );
+  });
+  
+  Handlebars.registerHelper( "markdown", function( str ){
+    return new Handlebars.SafeString( converter.makeHtml( str ) );
   });
   
   Handlebars.registerHelper("htmlify", function( str ){

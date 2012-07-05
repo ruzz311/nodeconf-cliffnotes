@@ -6,14 +6,14 @@ app = express.createServer()
 
 # Settings
 app.set "view engine", "jade"
-app.set "view options", layout: false, pretty: true
+app.set "view options", { layout: false, pretty: true }
 
 app.configure "development", () ->
   app.use express.logger "dev"
   app.use express.errorHandler { dumpExceptions: true, showStack: true }
 
 app.configure "production", () ->
-  app.set "view options", pretty: false
+  app.set "view options", { layout: false, pretty: false }
   app.use express.errorHandler()
 
 # Middleware

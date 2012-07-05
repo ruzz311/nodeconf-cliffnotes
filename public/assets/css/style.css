@@ -278,9 +278,7 @@ body {
   color: #FE57A1;
 }
 
-#main .hero-unit {
-  text-align: center;
-}
+#main .hero-unit { text-align: center; }
 
 #trelloList .row-fluid [class*="span"] {
   margin-left: 2.127659574%;
@@ -290,11 +288,19 @@ body {
   padding-left: 4em;
   font-weight: 300;
 }
-  
-
+#trelloList .row-fluid ul {
+  padding-left: 5em;
+  font-weight: 300;
+} 
+#trelloList h2 { overflow: hidden; }
+#trelloList h2 strong { overflow: hidden }
 #trelloList h2 em {
   font-size: .65em;
-  font-weight: 400
+  font-weight: 400;
+  color: #F94E38;
+}
+#trelloList .notes p {
+  padding-left: 0
 }
 
 /* ==|== media queries ======================================================
@@ -305,16 +311,25 @@ body {
 
 @media only screen and (min-width: 480px) {
   /* Style adjustments for viewports 480px and over go here */
-
+    
 }
 
 @media only screen and (min-width: 768px) {
   /* Style adjustments for viewports 768px and over go here */
-
+  
 }
 
+@media only screen and (max-width: 550px){
+  #main .hero-unit h1{
+    font-size: 40px
+  }
+}
 
-
+@media only screen and (max-width: 400px){
+  #main .hero-unit h1{
+    font-size: 30px
+  }
+}
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
    ========================================================================== */

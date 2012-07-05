@@ -37,7 +37,10 @@ require.config({
       deps: ["use!jquery"],
       attach: "bootstrap"
     },
-
+    "plugins/markdown.converter": {
+      deps: ["use!backbone"],
+      attach: "Markdown"
+    },
     "plugins/backbone.layoutmanager": {
       deps: ["use!backbone"]
     }

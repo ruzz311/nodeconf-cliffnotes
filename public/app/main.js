@@ -6,12 +6,11 @@ require([
   "use!backbone",
 
   // Modules
-  "modules/helpers",
   "modules/trello",
-  "modules/System"
+  "modules/system"
 ],
 
-function( namespace, $, Backbone, Helpers, Trello, System ){
+function( namespace, $, Backbone, Trello, System ){
   
   // Shorthand the application namespace
   var app = namespace.app,

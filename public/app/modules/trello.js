@@ -4,14 +4,15 @@ define([
   // Libs
   "use!jquery",
   "use!underscore",
-  "use!backbone"
+  "use!backbone",
 
   // Modules
+  "modules/helpers"
 
   // Plugins
 ],
 
-function( namespace, $, _, Backbone ){
+function( namespace, $, _, Backbone, Helpers ){
 
   // Create a new module
   var Trello = namespace.module();

@@ -3,14 +3,15 @@ define([
 
   // Libs
   "use!jquery",
-  "use!backbone"
+  "use!backbone",
 
   // Modules
-
+  "modules/helpers",
+  
   // Plugins
 ],
 
-function( namespace, $, Backbone ){
+function( namespace, $, Backbone, Helpers ){
   
   var System = namespace.module(),
       app = namespace.app,
@@ -19,10 +20,10 @@ function( namespace, $, Backbone ){
       },
       common_serialize = function(){ 
         return { board: this.model.toJSON() } 
-      }
-      common_render = function(){
-        
-      }
+      },
+      common_render = function( manage ){
+        return manage( this ).render();
+      };
       
   System.Views.Header = Backbone.View.extend({
     template: 'system/header',
@@ -35,9 +36,7 @@ function( namespace, $, Backbone ){
     className: 'well sidebar-nav',
     initialize: common_init,
     serialize: common_serialize,
-    events: {
-      "click a": "click_handler"
-    },
+    events: { "click a": "click_handler" },
     click_handler: function(e){
       e.preventDefault();
       //this is wrong, fix it
