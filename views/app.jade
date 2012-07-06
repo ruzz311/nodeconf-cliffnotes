@@ -7,13 +7,15 @@ html
     title Nodeconf 2012 Cliffnotes
     
     link( rel="shortcut icon", href="/favicon.ico" )
+    link( rel="stylesheet", href="/assets/css/animate.min.css" )
+    link( rel="stylesheet", href="/assets/css/bootstrap.min.css" )
     link( rel="stylesheet", href="/assets/css/index.css" )
     link( rel="stylesheet", href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,800" )
-    
+
     script( type="text/javascript" )
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-33121457-1']);
-      //_gaq.push(['_trackPageview']); // t<- this is removed because it would cause a 0% bouce rate
+      _gaq.push(['_trackPageview']);
 
       (function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
@@ -24,5 +26,15 @@ html
   body
     div#main.loading( role="main" )
       h1 Loading...
-      
+    
+    //
+      div#myModal.modal.hide
+        div.modal-header
+          button.close( data-dismiss="modal" ) ×
+          h3 Modal header
+        div.modal-body
+          p Loading...
+        div.modal-footer
+          button.btn( data-dismiss="modal" ) Close
+    
     script( data-main="app/config", src="/assets/js/libs/require.js" )

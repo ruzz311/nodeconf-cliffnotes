@@ -30,8 +30,8 @@ class Trello
   
   get: ( method, callback )->
     url = "#{ @base_url() }#{ method }&key=#{ config.key }"
-    cache = @settings.cache
-    console.log url
+    # used while coding on the plane back from nodeconf - return 'cache' when errors happen
+    cache = @settings.cache 
     
     rest.get( url )
     .on 'complete', ( result )->
@@ -41,7 +41,7 @@ class Trello
       else callback( null, result )
   
   board: ( id, callback )->
-    method = "board/#{ id }?actions=commentCard&cards=open&lists=open&fields=name,desc"
+    method = "board/#{ id }?actions=commentCard,addAttachmentToCard&cards=open&lists=open&fields=name,desc,url,labelNames,pinned"
     @get method, callback
     
 # Attach Trello as middleware

@@ -7,17 +7,17 @@ define([
   "use!backbone",
 
   // Modules
+  "modules/system",
   "modules/helpers"
 
   // Plugins
 ],
 
-function( namespace, $, _, Backbone, Helpers ){
+function( namespace, $, _, Backbone, System, Helpers ){
 
   // Create a new module
   var Trello = namespace.module();
   var base_url = "/trello";
-  
   
   //====================================================== DATA STRUCTURES
   
@@ -64,6 +64,9 @@ function( namespace, $, _, Backbone, Helpers ){
     template: "list",
     id: "trelloList",
     className: "list",
+    events: {
+      "click .notes img": 'populate_modal'
+    },
     
     initialize: function( options ){
       this.model.on( "change", function( ){
@@ -74,6 +77,30 @@ function( namespace, $, _, Backbone, Helpers ){
     serialize: function(){
       var cards = this.model.get_list( this.options.idList )
       return { cards: cards };
+    },
+    
+    populate_modal: function( e ){
+      var vp = System.Viewport()
+      var vph = { "maxHeight":  (vp.height - (vp.height * 0.25 ))+'px' };
+      var data = new Backbone.Model({
+        title: e.target.alt || '',
+        body: e.target.outerHTML
+      });
+      var modal = new System.Views.Modal({ model: data });
+      
+      modal.render(function( el ){
+        var $el = jQuery( el )
+          .addClass( 'media' )
+          .find( '.modal-body' )
+            .css( vph )
+          .end()
+            
+        if( jQuery( this.id ).length )
+          jQuery( this.id ).replaceWith( el )
+        else
+          jQuery( 'body' ).append( el )
+        $el.modal({ backdrop:'static' })
+      });
     }
     
   });

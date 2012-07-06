@@ -18,41 +18,36 @@ function( namespace, $, Backbone, Handlebars, Markdown ){
       app = namespace.app,
       converter = new Markdown.Converter();
   
-  String.prototype.parseURL = function() {
-    return this.replace(/[A-Za-z]+:\/\/[A-Za-z0-9-_]+\.[A-Za-z0-9-_:%&~\?\/.=]+/g, function(url) {
-      return url.link(url);
-    });
-  };
-  String.prototype.parseUsername = function() {
-    return this.replace(/[@]+[A-Za-z0-9-_]+/g, function(u) {
-      var username = u.replace("@","")
-      return u.link("http://twitter.com/"+username);
-    });
-  };
-  String.prototype.parseHashtag = function() {
-    return this.replace(/[#]+[A-Za-z0-9-_]+/g, function(t) {
-      var tag = t.replace("#","%23")
-      return t.link("http://search.twitter.com/search?q="+tag);
-    });
-  };
-
   Handlebars.registerHelper("decodeString", function( str ){
     return new Handlebars.SafeString( str );
   });
-
-  Handlebars.registerHelper( "fancyPost", function( str ){
-    return new Handlebars.SafeString( str.parseURL().parseUsername().parseHashtag() );
+  
+  Handlebars.registerHelper( "if_eq", function( x, y ){
+    return x === y
+  });
+  
+  Handlebars.registerHelper( "trelloAction", function( obj ){
+    var result = '';
+    switch( obj.type ){
+      case "addAttachmentToCard":
+        result = '<img src="'+obj.data.attachment.url+'" alt="'+obj.data.attachment.name+'" />';
+        break;
+      case "commentCard":
+        result = converter.makeHtml( obj.data.text );
+        break;
+      default: break;
+    }
+    return new Handlebars.SafeString( result );
+  });
+  
+  Handlebars.registerHelper( "classFromLabels", function( labels ){
+    return _.pluck( labels, 'name' ).join(' ')
   });
   
   Handlebars.registerHelper( "markdown", function( str ){
+    if( str === "" || typeof str == "undefined" || str === null )
+      return '';
     return new Handlebars.SafeString( converter.makeHtml( str ) );
-  });
-  
-  Handlebars.registerHelper("htmlify", function( str ){
-    var result = "";
-    if( str != null )
-      result = str.replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/\r/g, "").replace(/\n/g, "<br />");
-    return new Handlebars.SafeString( result.parseURL().parseUsername() );
   });
   
   Handlebars.registerHelper("formatDate", function( d ){

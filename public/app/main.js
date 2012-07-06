@@ -30,6 +30,7 @@ function( namespace, $, Backbone, Trello, System ){
         "#nav_site .container-fluid" : new System.Views.Header({ model: board }),
         "#nav_pages"  : new System.Views.Nav({ model: board })
       });
+      layout_main.render(function( el ){ $("#main").html( el ) });
           
       board.fetch({
         "success":function( d ){},
@@ -41,10 +42,6 @@ function( namespace, $, Backbone, Trello, System ){
       var index_view = new Trello.Views.Index({ model: board }) 
       layout_main.setViews({ "#contents": index_view })
       layout_main.render(function( el ){ $("#main").html( el ) });
-    },
-    
-    about: function(){
-      console.log( 'ABOUT ROUTE... hey that rhymes' )
     },
     
     show_list: function( id ){
