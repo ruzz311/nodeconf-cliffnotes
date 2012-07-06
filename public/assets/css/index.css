@@ -133,7 +133,7 @@ body {
 
 #main .topic {color: #CCC; }
 #main .clues { color: #F94E38; }
-#main .hero-unit { text-align: center; }
+#main .hero-unit { text-align: center; background-color: transparent; }
 
 #nav_pages a,
 #nav_site a { color:#00CCFF; text-decoration: none; }
@@ -197,7 +197,14 @@ body {
 
 @media only screen and (min-width: 768px) {
   /* Style adjustments for viewports 768px and over go here */
-  
+}
+
+@media only screen and (min-width: 767px) {
+  /* Style adjustments for viewports 768px and under go here */
+  #trelloList h2 strong { display: block }
+  #trelloList p { padding-left: 1em; }
+  #trelloList ul { padding-left: 2em; }
+  #trelloList ol { padding-left: 2em; }
 }
 
 @media only screen and (max-width: 550px){
