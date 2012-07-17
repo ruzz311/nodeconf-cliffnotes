@@ -199,7 +199,7 @@ body {
   /* Style adjustments for viewports 768px and over go here */
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (max-width: 767px) {
   /* Style adjustments for viewports 768px and under go here */
   #trelloList h2 strong { display: block }
   #trelloList p { padding-left: 1em; }
