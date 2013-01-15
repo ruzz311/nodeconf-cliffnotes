@@ -3,7 +3,7 @@ nodeconf-cliffnotes
 
 Just a repo to keep notes about nodeconf speakers.  This project utilizes trello.com as an entry-interface, and nodejs + backbonejs for display.
 
-## Live Site
+## Live Site 
 
 <a href="http://nodeconf.jit.su/">Nodeconf Cliffnotes</a>
 
