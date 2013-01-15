@@ -1,7 +1,7 @@
 {
   "author": "Russell Madsen <russell@madsendev.com>",
   "name": "nodeconf-cliffnotes",
-  "version": "0.2.0-9",
+  "version": "0.3.0-1",
   "repository": {
     "type": "git",
     "url": "git@github.com:ruzz311/nodeconf-cliffnotes.git"

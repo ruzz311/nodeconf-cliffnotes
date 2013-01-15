@@ -1,6 +1,6 @@
 <div class="row-fluid">
 {{#each cards}}
-  <div class="span12 {{ classFromLabels this.labels }}">
+  <div id="card_{{this.id}}" class="span12 {{ classFromLabels this.labels }}">
     
     <h2>
       {{#if this.due}}
